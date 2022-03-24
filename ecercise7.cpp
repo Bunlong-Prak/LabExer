@@ -2,7 +2,6 @@
 // this program will compile all laboratory activities
 #include <iostream>
 #include <math.h>
-using namespace std;
 void clear()
 {
     system("cls");
@@ -16,16 +15,17 @@ int main()
     bool prime = true;
     int A = 0, B = 0, C = 0, D = 0, F = 0;
 again:
-    cout << " MAIN MENU Select Laboratory Activity" << endl;
-    cout << " [1] On Arithmetic Operators Sum, Product, and Average" << endl;
-    cout << " [2] On Arithmetic Operators Area and Circumference of a Circle, and Temperature " << endl;
-    cout << " [3] Control Structure Print name based on Odd or Even " << endl;
-    cout << " [4] Control Structure Range Message " << endl;
-    cout << " [5] Control Structure Prime or Composite " << endl;
-    cout << " [6] Control Structure A List of exam scores " << endl;
-    cout << " [7] Control Structure Conditionals with switch" << endl;
-    cout << " [X] Exit" << endl;
-    cout << " Your choice ";
+    cout << "\nMAIN MENU: Select Laboratory Activity" << endl;
+    cout << "     [1] On Arithmetic Operators and Keyboard input" << endl;
+    cout << "     [2] Circumference and Area & Temperature Conversion" << endl;
+    cout << "     [3] Control Structure" << endl;
+    cout << "     [4] Range Message" << endl;
+    cout << "     [5] Prime and Composite" << endl;
+    cout << "     [6] List Exam Score" << endl;
+    cout << "     [7] Switch" << endl;
+    cout << "     [Press any charater to exit] Exit\n"
+              << endl;
+    cout << "Your choice: ";
     cin >> cases || cin >> chars;
     if (chars == 'x' || chars == 'X')
     {
